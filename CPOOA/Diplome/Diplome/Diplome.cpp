@@ -1,3 +1,4 @@
+#pragma  once
 #include "Diplome.h"
 
 
@@ -10,15 +11,17 @@ Stage * stage;
 	Diplome::Diplome(const string & s) : titre(s), stage(NULL){}
 
 	Diplome::Diplome(const string & s, const Stage & st) : titre(s), stage(NULL){
-		stage = &Stage(st);
+		stage = new Stage(st);
 	}
 
 	Diplome::Diplome(const Diplome & d) : titre(d.titre), stage(NULL){
 		if (d.stage)
-			stage = &Stage(*d.stage);
+			stage = new Stage(*d.stage);
 	}
 
-	Diplome::~Diplome(){}
+	Diplome::~Diplome(){
+		delete stage;
+	}
 
 	const string & Diplome::getTitre() const{
 		return titre;
@@ -29,8 +32,17 @@ Stage * stage;
 		return (stage != NULL);
 	}
 
-	//	const Stage & Diplome::getStage() const;
-	//	void Diplome::setStage(const Stage &);
+	const Stage & Diplome::getStage() const{
+		if (!stage)
+			throw exTP1("Pas de stage");
+		return *stage;
+
+	}
+
+	void Diplome::setStage(const Stage & s){
+		delete stage;
+		stage = new Stage(s);
+	}
 
 	const Diplome & Diplome::operator=(const Diplome &){
 		return *this;
@@ -39,6 +51,6 @@ Stage * stage;
 	ostream & operator << (ostream & f, const Diplome & d){
 		f << d.titre << endl;
 		if (d.stage)
-			f << "Stage:min " << *d.stage.
+			f << *d.stage;
 		return f;
 	}

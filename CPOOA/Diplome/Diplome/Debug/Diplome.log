@@ -1,21 +1,57 @@
-﻿La génération a démarré 14/09/2016 12:20:23.
-     1>Projet "C:\Temp\ded\Diplome\Diplome\Diplome.vcxproj" sur le nœud 2 (Build cible(s)).
+﻿La génération a démarré 20/09/2016 17:34:36.
+     1>Projet "D:\L3\CPOOA\Diplome\Diplome\Diplome.vcxproj" sur le nœud 2 (Build cible(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Diplome.cpp main.cpp
-         Diplome.cpp
-         Génération de code en cours...
-         Compilation en cours...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Diplome.cpp Etudiant.cpp main.cpp
          main.cpp
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(18): error C2061: erreur de syntaxe : identificateur 'Diplome'
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(22): error C2590: 'getNom' : seul un constructeur peut avoir une liste d'initialiseurs de base/membre
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(22): error C2533: 'Etudiant' : type de retour non autorisé pour les constructeurs
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(22): error C2583: 'Etudiant::Etudiant' : pointeur 'this' 'const' non conforme pour les constructeurs/destructeurs
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(23): error C2969: erreur de syntaxe : ';' : la définition d'une fonction membre doit se terminer par '}'
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(31): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(31): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(31): warning C4183: 'getDiplome' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(32): error C2061: erreur de syntaxe : identificateur 'Diplome'
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(37): error C2143: erreur de syntaxe : absence de ';' avant '!='
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(37): error C2334: jetons inattendus avant '{' ; corps apparent de la fonction ignoré
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(23): error C2061: erreur de syntaxe : identificateur 'setNom'
+     1>d:\l3\cpooa\diplome\diplome\option.h(3): error C2059: erreur de syntaxe : '<class-head>'
+     1>d:\l3\cpooa\diplome\diplome\option.h(3): error C2630: ';' trouvé(e) à la place d'une liste avec la virgule comme séparateur
+     1>d:\l3\cpooa\diplome\diplome\option.h(4): error C2143: erreur de syntaxe : absence de ';' avant 'public'
+     1>d:\l3\cpooa\diplome\diplome\option.h(6): error C2588: '::~Option' : destructeur global non conforme
+     1>d:\l3\cpooa\diplome\diplome\option.h(6): error C2575: 'Option' : seules les fonctions membres et les bases peuvent être virtuelles
+     1>d:\l3\cpooa\diplome\diplome\option.h(6): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+         Etudiant.cpp
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(22): error C2590: 'getNom' : seul un constructeur peut avoir une liste d'initialiseurs de base/membre
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(22): error C2533: 'Etudiant' : type de retour non autorisé pour les constructeurs
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(22): error C2583: 'Etudiant::Etudiant' : pointeur 'this' 'const' non conforme pour les constructeurs/destructeurs
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(23): error C2969: erreur de syntaxe : ';' : la définition d'une fonction membre doit se terminer par '}'
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(37): error C2143: erreur de syntaxe : absence de ';' avant '!='
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(37): error C2334: jetons inattendus avant '{' ; corps apparent de la fonction ignoré
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(23): error C2061: erreur de syntaxe : identificateur 'setNom'
+     1>d:\l3\cpooa\diplome\diplome\etudiant.cpp(2): fatal error C1004: fin de fichier inattendue rencontrée
+         Diplome.cpp
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(18): error C2061: erreur de syntaxe : identificateur 'Diplome'
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(22): error C2590: 'getNom' : seul un constructeur peut avoir une liste d'initialiseurs de base/membre
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(22): error C2533: 'Etudiant' : type de retour non autorisé pour les constructeurs
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(22): error C2583: 'Etudiant::Etudiant' : pointeur 'this' 'const' non conforme pour les constructeurs/destructeurs
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(23): error C2969: erreur de syntaxe : ';' : la définition d'une fonction membre doit se terminer par '}'
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(31): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(31): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(31): warning C4183: 'getDiplome' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(32): error C2061: erreur de syntaxe : identificateur 'Diplome'
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(37): error C2143: erreur de syntaxe : absence de ';' avant '!='
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(37): error C2334: jetons inattendus avant '{' ; corps apparent de la fonction ignoré
+     1>d:\l3\cpooa\diplome\diplome\etudiant.h(23): error C2061: erreur de syntaxe : identificateur 'setNom'
+     1>d:\l3\cpooa\diplome\diplome\option.h(3): error C2059: erreur de syntaxe : '<class-head>'
+     1>d:\l3\cpooa\diplome\diplome\option.h(3): error C2630: ';' trouvé(e) à la place d'une liste avec la virgule comme séparateur
+     1>d:\l3\cpooa\diplome\diplome\option.h(4): error C2143: erreur de syntaxe : absence de ';' avant 'public'
+     1>d:\l3\cpooa\diplome\diplome\option.h(6): error C2588: '::~Option' : destructeur global non conforme
+     1>d:\l3\cpooa\diplome\diplome\option.h(6): error C2575: 'Option' : seules les fonctions membres et les bases peuvent être virtuelles
+     1>d:\l3\cpooa\diplome\diplome\option.h(6): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
          Génération de code en cours...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Temp\ded\Diplome\Debug\Diplome.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Temp\ded\Diplome\Debug\Diplome.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Temp\ded\Diplome\Debug\Diplome.lib" /MACHINE:X86 Debug\Diplome.obj
-         Debug\Etudiant.obj
-         Debug\main.obj
-         Debug\Option.obj
-         Debug\Stage.obj
-         Diplome.vcxproj -> C:\Temp\ded\Diplome\Debug\Diplome.exe
-     1>Génération du projet "C:\Temp\ded\Diplome\Diplome\Diplome.vcxproj" terminée (Build cible(s)).
+     1>Génération du projet "D:\L3\CPOOA\Diplome\Diplome\Diplome.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
 
-La génération a réussi.
+ÉCHEC de la build.
 
-Temps écoulé 00:00:04.35
+Temps écoulé 00:00:01.52

@@ -3,6 +3,6 @@ class Option
 {
 public:
 	Option();
-	~Option();
+	virtual ~Option();
 };
 

@@ -80,12 +80,14 @@
   <ItemGroup>
     <ClInclude Include="Diplome.h" />
     <ClInclude Include="Etudiant.h" />
+    <ClInclude Include="ExTP1.h" />
     <ClInclude Include="Option.h" />
     <ClInclude Include="Stage.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Diplome.cpp" />
     <ClCompile Include="Etudiant.cpp" />
+    <ClCompile Include="ExTP1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Option.cpp" />
     <ClCompile Include="Stage.cpp" />
