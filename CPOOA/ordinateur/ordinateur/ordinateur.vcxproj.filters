@@ -47,7 +47,7 @@
     <ClCompile Include="ecran.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="diquedur.cpp">
+    <ClCompile Include="disquedur.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

@@ -86,7 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="composant.cpp" />
-    <ClCompile Include="diquedur.cpp" />
+    <ClCompile Include="disquedur.cpp" />
     <ClCompile Include="ecran.cpp" />
     <ClCompile Include="ExTP1.cpp" />
     <ClCompile Include="main.cpp" />

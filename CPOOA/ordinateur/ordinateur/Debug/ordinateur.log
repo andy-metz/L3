@@ -1,18 +1,29 @@
-﻿La génération a démarré 23/09/2016 17:17:17.
-     1>Projet "C:\Temp\ordinateur\ordinateur\ordinateur.vcxproj" sur le nœud 2 (Build cible(s)).
+﻿La génération a démarré 24/09/2016 15:43:38.
+     1>Projet "H:\L3\CPOOA\ordinateur\ordinateur\ordinateur.vcxproj" sur le nœud 2 (Build cible(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt diquedur.cpp
-         diquedur.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt composant.cpp disquedur.cpp ecran.cpp ExTP1.cpp main.cpp ordinateur.cpp
+         ordinateur.cpp
+     1>h:\l3\cpooa\ordinateur\ordinateur\ordinateur.cpp(18): warning C4018: '<' : incompatibilité signed/unsigned
+     1>h:\l3\cpooa\ordinateur\ordinateur\ordinateur.cpp(38): warning C4018: '<' : incompatibilité signed/unsigned
+     1>h:\l3\cpooa\ordinateur\ordinateur\ordinateur.cpp(65): warning C4018: '>=' : incompatibilité signed/unsigned
+     1>h:\l3\cpooa\ordinateur\ordinateur\ordinateur.cpp(87): warning C4018: '<' : incompatibilité signed/unsigned
+         main.cpp
+         ExTP1.cpp
+         ecran.cpp
+         disquedur.cpp
+         composant.cpp
+         Génération de code en cours...
+     1>h:\l3\cpooa\ordinateur\ordinateur\ecran.cpp(26): warning C4715: 'Ecran::prix' : les chemins de contrôle ne retournent pas tous une valeur
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Temp\ordinateur\Debug\ordinateur.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Temp\ordinateur\Debug\ordinateur.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Temp\ordinateur\Debug\ordinateur.lib" /MACHINE:X86 Debug\composant.obj
-         Debug\diquedur.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\L3\CPOOA\ordinateur\Debug\ordinateur.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\L3\CPOOA\ordinateur\Debug\ordinateur.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\L3\CPOOA\ordinateur\Debug\ordinateur.lib" /MACHINE:X86 Debug\composant.obj
+         Debug\disquedur.obj
          Debug\ecran.obj
          Debug\ExTP1.obj
          Debug\main.obj
          Debug\ordinateur.obj
-         ordinateur.vcxproj -> C:\Temp\ordinateur\Debug\ordinateur.exe
-     1>Génération du projet "C:\Temp\ordinateur\ordinateur\ordinateur.vcxproj" terminée (Build cible(s)).
+         ordinateur.vcxproj -> H:\L3\CPOOA\ordinateur\Debug\ordinateur.exe
+     1>Génération du projet "H:\L3\CPOOA\ordinateur\ordinateur\ordinateur.vcxproj" terminée (Build cible(s)).
 
 La génération a réussi.
 
-Temps écoulé 00:00:02.86
+Temps écoulé 00:00:28.22
