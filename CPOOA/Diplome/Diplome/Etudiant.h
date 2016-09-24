@@ -1,10 +1,10 @@
-#ifndef ETUDIANT_H
-#define ETUDIANT_H
+#pragma once
 #include <iostream>
 #include <string>
-#include "Diplome.h"
+
 
 using namespace std;
+class Diplome;
 
 class Etudiant
 {
@@ -14,12 +14,13 @@ class Etudiant
 	int * diplome;
 
 public:
+	Etudiant();
 	Etudiant(const Etudiant &);
 	Etudiant(const string & n, int a, bool b, Diplome * d);
 	virtual ~Etudiant();
 
 	// getter and setter
-	const string & getNom() const:
+	const string & getNom() const;
 	void setNom(const string &);
 
 	int getAge() const;
@@ -32,11 +33,9 @@ public:
 	void setDiplome(Diplome *);
 
 	const Etudiant & operator = (const Etudiant &);
-
 	bool operator == (const Etudiant &) const;
-	bool operaator != (const Etudiant &e){ return !(*this == e); }
+	bool operator != (const Etudiant &e){ return !(*this == e); }
+
+	friend ostream & operator << (ostream &f, const Etudiant &);
 
 };
-
-
-#endif

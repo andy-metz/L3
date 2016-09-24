@@ -15,4 +15,6 @@ int main(int argc, char * arrgv[]){
 	cout << d2 << endl;
 	d2.setStage(Stage(2, 6, true));
 	cout << d2 << endl;
+
+	system("pause");
 }

@@ -1,5 +1,4 @@
-#ifndef DIPLOME_H
-#define DIPLOME_H
+#pragma once
 
 #include <string.h>
 #include <string>
@@ -36,4 +35,3 @@ public:
 	friend ostream & operator << (ostream &, const Diplome &);
 
 };
-#endif
